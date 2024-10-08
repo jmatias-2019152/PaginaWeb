@@ -5,7 +5,7 @@ html, body {
   body {
     display: grid;
     font-family: Avenir, sans-serif;
-    color: #ac75d0;
+    color: #ffffff;
   }
   
   a {
@@ -14,23 +14,16 @@ html, body {
   }
   
   .cta {
-    position: relative;
-    margin: auto;
-    padding: 19px 22px;
-    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #ac75d0; /* Color de fondo inicial */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
   }
-  .cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 28px;
-    background: #ffab9d;
-    width: 56px;
-    height: 56px;
-    transition: all 0.3s ease;
-  }
+
   .cta span {
     position: relative;
     font-size: 16px;
@@ -47,18 +40,13 @@ html, body {
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: #ac75d0;
+    stroke: #ffffff;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
   }
-  .cta:hover:before {
-    width: 100%;
-    background: #ffab9d;
-  }
-  .cta:hover svg {
-    transform: translateX(0);
-  }
-  .cta:active {
-    transform: scale(0.96);
+
+  .cta:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    color: white; /* Color del texto al pasar el mouse */
   }
