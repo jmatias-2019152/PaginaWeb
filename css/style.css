@@ -91,7 +91,7 @@ body {
     padding: 100px;
     padding-bottom: 150px;
     font-family: 'Great Vibes', cursive;
-    height: 100h;
+    height: 100vh;
 }
 
 .division-2 h2 {
@@ -110,7 +110,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100h;
+    height: 100vh;
 }
 
 .division-3 h2 {
@@ -187,5 +187,6 @@ body {
     margin-top: 60px;
     position: relative;
     top: 0; 
+    padding-bottom: 200px;
 }
 
