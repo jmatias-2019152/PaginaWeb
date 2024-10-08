@@ -188,21 +188,29 @@ body {
     font-family: 'Edwardian Script ITC', cursive;
 }
 
+
+
+
 @media (max-width: 480px) {
     .division-1{
         align-items: center;
+        max-width: 400px;
     }
     .division-2{
         align-items: center;
+        max-width: 400px;
     }
     .division-3{
         align-items: center;
+        max-width: 400px;
     }
     .division-4{
         align-items: center;
+        max-width: 400px;
     }
     .division-5{
         align-items: center;
+        max-width: 400px;
     }
 }
 
