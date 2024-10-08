@@ -190,8 +190,8 @@ body {
 
 @media (max-width: 480px) {
     .container {
-        height: auto;
-        width: auto; /* Un pequeño padding para evitar que el contenido quede pegado a los bordes */
+        height: 100vh;
+        width: 80vh; /* Un pequeño padding para evitar que el contenido quede pegado a los bordes */
     }
 }
 
