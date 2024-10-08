@@ -186,3 +186,14 @@ body {
     top: 0; 
 }
 
+@media (max-width: 480px) {
+    .container {
+        padding: 20px; /* Un pequeño padding para evitar que el contenido quede pegado a los bordes */
+    }
+    .mis {
+        font-size: 12vw; /* Ajusta el tamaño de la fuente en pantallas pequeñas */
+    }
+    .nombre {
+        font-size: 18vw;
+    }
+}
