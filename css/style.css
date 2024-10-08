@@ -189,7 +189,7 @@ body {
 }
 
 /* Media Queries para Samsung A20 (máximo 720px de ancho) */
-@media (max-width: 720px) {
+@media (max-width: 554px) {
     .division-1 h1 {
         font-size: 30px;
     }
@@ -201,12 +201,12 @@ body {
 
     .mis {
         font-size: 50px;
-        top: 30px;
+        top: -30px;
     }
 
     .nombre {
         font-size: 100px;
-        margin-top: -10px;
+        top: 50px;
         margin-bottom: 30px;
     }
 
@@ -224,7 +224,7 @@ body {
     }
 
     .hora {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .division-4 h1 {
@@ -237,6 +237,12 @@ body {
 
     .tiempo p {
         font-size: 18px;
+    }
+
+    .division-5 {
+        text-align: center;
+        padding-bottom: 50px;
+        display: block;
     }
 
     .division-5 h2 {
