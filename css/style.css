@@ -1,0 +1,188 @@
+/* Estilo general del fondo */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+    font-family: 'Edwardian Script ITC';
+    src: url('../images/edwardianscriptitc.ttf') format('truetype');
+}
+
+
+body {
+    background-image: url('../images/mariposas.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor principal que contiene las divisiones */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.division {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Primera división (para el texto "XV años Rocio") */
+.division-1 {
+    position: relative;
+    height: 100vh;
+}
+
+.division-1 h1 {
+    font-size: 48px;
+    color: #6a4a99;
+    position: relative;
+}
+
+.grande {
+    font-size: 250px;
+    margin-top: 100px;
+    color: rgba(106, 74, 153, 0.3);
+    display: inline-block;
+}
+
+.mis {
+    font-size: 100px;
+    color: #7a5ba6;
+    margin-top: 100px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.nombre {
+    display: block;
+    font-size: 200px;
+    color: #7a5ba6;
+    margin-top: -20px;
+    position: relative;
+    top: -10px;
+    left: -20px;
+    font-family: 'Edwardian Script ITC', cursive;
+    margin-bottom: 100px;
+}
+
+/* Segunda division */
+.division-2 {
+    color: #6a4a99;
+    position: relative; 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 150px;
+    font-family: 'Great Vibes', cursive;
+    height: 100h;
+}
+
+.division-2 h2 {
+    max-width: 750px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 48px;
+}
+
+/* Tercera división */
+.division-3 {
+    color: #6a4a99;
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100h;
+}
+
+.division-3 h2 {
+    font-size: 200px;
+    color: #7a5ba6;
+    margin-top: 0;
+    position: relative;
+    top: 0;
+    left: -21px; 
+    font-family: 'Edwardian Script ITC', cursive;
+}
+
+.division-3 h3{
+    font-size: 50px;
+    color: #7a5ba6;
+    position: relative;
+    top: -50px; 
+}
+
+.hora {
+    color: #7a5ba6;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hora .icon img {
+    width: 75px;
+}
+
+.division-4 {
+    text-align: center;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.division-4 h1{
+    font-size: 90px; 
+    margin-bottom: 30px;
+    color: #7a5ba6;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: #7a5ba6;
+    font-weight: bold;
+}
+
+.tiempo {
+    margin: 0 40px;
+}
+
+.tiempo p {
+    font-size: 25px;
+    color: #7a5ba6;
+}
+
+.cronometro {
+    width: 150px;
+}
+
+.division-5 {
+    text-align: center;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.division-5 h2 {
+    font-size: 50px;
+    color: #7a5ba6;
+    margin-top: 60px;
+    position: relative;
+    top: 0; 
+}
+
