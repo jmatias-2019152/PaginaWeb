@@ -146,9 +146,10 @@ body {
 }
 
 .division-4 h1{
-    font-size: 90px; 
+    font-size: 200px; 
     margin-bottom: 30px;
     color: #7a5ba6;
+    font-family: 'Edwardian Script ITC', cursive;
 }
 
 .contador {
@@ -176,24 +177,21 @@ body {
     text-align: center;
     padding-bottom: 50px;
     display: block;
+    margin-bottom: 500px;
 }
 
 .division-5 h2 {
-    font-size: 50px;
+    font-size: 105px;
     color: #7a5ba6;
-    margin-top: 60px;
+    left: -30px;
     position: relative;
-    top: 0; 
+    font-family: 'Edwardian Script ITC', cursive;
 }
 
 @media (max-width: 480px) {
     .container {
-        padding: 20px; /* Un pequeño padding para evitar que el contenido quede pegado a los bordes */
-    }
-    .mis {
-        font-size: 12vw; /* Ajusta el tamaño de la fuente en pantallas pequeñas */
-    }
-    .nombre {
-        font-size: 18vw;
+        height: auto;
+        width: auto; /* Un pequeño padding para evitar que el contenido quede pegado a los bordes */
     }
 }
+
