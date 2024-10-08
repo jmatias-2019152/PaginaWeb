@@ -6,6 +6,7 @@ html, body {
     display: grid;
     font-family: Avenir, sans-serif;
     color: #ffffff;
+    padding-bottom: 200px;
   }
   
   a {
