@@ -47,6 +47,6 @@ html, body {
   }
 
   .cta:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    background-color: #f700ff; /* Color de fondo al pasar el mouse */
     color: white; /* Color del texto al pasar el mouse */
   }
