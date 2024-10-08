@@ -1,17 +1,16 @@
 html, body {
     height: 100%;
+    padding-bottom: 200px;
   }
   
   body {
     display: grid;
     font-family: Avenir, sans-serif;
     color: #ffffff;
-    padding-bottom: 200px;
   }
   
   a {
     text-decoration: none;
-    color: inherit;
   }
   
   .cta {
