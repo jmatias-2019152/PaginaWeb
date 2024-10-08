@@ -188,24 +188,61 @@ body {
     font-family: 'Edwardian Script ITC', cursive;
 }
 
+/* Media Queries para Samsung A20 (máximo 720px de ancho) */
+@media (max-width: 720px) {
+    .division-1 h1 {
+        font-size: 30px;
+    }
 
+    .grande {
+        font-size: 120px;
+        margin-top: 30px;
+    }
 
+    .mis {
+        font-size: 50px;
+        top: 30px;
+    }
 
-@media (max-width: 480px) {
-    .division-1{
-        align-items: center;
+    .nombre {
+        font-size: 100px;
+        margin-top: -10px;
+        margin-bottom: 30px;
     }
-    .division-2{
-        align-items: center;
+
+    .division-2 h2 {
+        font-size: 28px;
+        padding: 15px;
     }
-    .division-3{
-        align-items: center;
+
+    .division-3 h2 {
+        font-size: 80px;
     }
-    .division-4{
-        align-items: center;
+
+    .division-3 h3 {
+        font-size: 24px;
     }
-    .division-5{
-        align-items: center;
+
+    .hora {
+        font-size: 18px;
+    }
+
+    .division-4 h1 {
+        font-size: 120px;
+    }
+
+    .contador {
+        font-size: 50px;
+    }
+
+    .tiempo p {
+        font-size: 18px;
+    }
+
+    .division-5 h2 {
+        font-size: 70px;
     }
 }
+
+
 
