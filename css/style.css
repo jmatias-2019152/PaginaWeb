@@ -190,6 +190,10 @@ body {
 
 /* Media Queries para Samsung A20 (máximo 720px de ancho) */
 @media (max-width: 554px) {
+    body{
+        max-width: 100vh; 
+    }
+
     .division-1 h1 {
         max-width: 100vh;
         font-size: 30px;
