@@ -49,6 +49,7 @@ body {
 
 .grande {
     font-size: 250px;
+    margin-top: 100px;
     color: rgba(106, 74, 153, 0.3);
     display: inline-block;
 }
@@ -56,6 +57,7 @@ body {
 .mis {
     font-size: 100px;
     color: #7a5ba6;
+    margin-top: 100px;
     position: absolute;
     top: 80px;
     left: 50%;
@@ -72,6 +74,7 @@ body {
     top: -10px;
     left: -20px;
     font-family: 'Edwardian Script ITC', cursive;
+    margin-bottom: 100px;
 }
 
 /* Segunda division */
@@ -181,34 +184,5 @@ body {
     margin-top: 60px;
     position: relative;
     top: 0; 
-}
-
-/* Botón CTA */
-.cta {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 24px;
-    background-color: #6a4a99;
-    color: white;
-    text-decoration: none;
-    font-size: 40px;
-    border-radius: 25px;
-    transition: background-color 0.3s ease, transform 0.2s;
-    cursor: pointer;
-    border: none;
-}
-
-.cta span {
-    margin: 10px;
-}
-
-.cta:hover {
-    background-color: #7a5ba6;
-    transform: scale(1.05);
-}
-
-.cta:hover svg {
-    transform: translateX(5px);
 }
 
