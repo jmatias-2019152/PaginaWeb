@@ -2,13 +2,12 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 24px;
+  padding: 13px 24px;
   background-color: #6a4a99;
   color: white;
   text-decoration: none;
-  font-family: Arial, sans-serif;
   font-size: 40px;
-  border-radius: 8px;
+  border-radius: 25px;
   transition: background-color 0.3s ease, transform 0.2s;
   cursor: pointer;
   border: none;
@@ -16,17 +15,7 @@
 
 /* Estilo del texto dentro del botón */
 .cta span {
-  margin-right: 10px;
-}
-
-/* Estilo del SVG para la flecha */
-.cta svg {
-  fill: none;
-  stroke: white;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: transform 0.3s ease;
+  margin: 10px;
 }
 
 /* Cambio de color al pasar el mouse */
