@@ -185,7 +185,13 @@ body {
 .division-5 h2 {
     font-size: 50px;
     color: #7a5ba6;
-    margin-top: 60px;
+    position: relative;
+    top: 0; 
+}
+
+.division-5 h3 {
+    font-size: 30px;
+    color: #7a5ba6;
     position: relative;
     top: 0; 
 }
