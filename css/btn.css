@@ -17,11 +17,11 @@ html, body {
     display: inline-flex;
     align-items: center;
     padding: 10px 15px;
-    background-color: #ac75d0; /* Color de fondo inicial */
-    color: white; /* Color del texto */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    background-color: #ac75d0;
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
     
   }
 
@@ -48,6 +48,6 @@ html, body {
   }
 
   .cta:hover {
-    background-color: #f700ff; /* Color de fondo al pasar el mouse */
-    color: white; /* Color del texto al pasar el mouse */
+    background-color: #f700ff; 
+    color: white; 
   }
